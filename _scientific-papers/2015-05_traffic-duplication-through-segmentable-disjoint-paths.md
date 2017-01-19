@@ -1,5 +1,5 @@
 ---
-title: Traffic duplication through segmentable disjoint paths
+title: "Traffic Duplication Through Segmentable Disjoint Paths"
 authors: François Aubry, David Lebrun, Yves Deville and Olivier Bonaventure
 publisher: IFIP Networking 2015
 location: Toulouse, France
