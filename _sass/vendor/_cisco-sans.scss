@@ -1,0 +1,42 @@
+
+$cs-font-path: "../fonts/cisco-sans" !default;
+
+@font-face {
+  font-family: CiscoSans;
+  src:url(#{$cs-font-path}/CiscoSansTTRegular.woff) format("woff");
+  font-style:normal;
+  font-weight:400;
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000
+}
+
+@font-face {
+  font-family:CiscoSans;
+  src:url(#{$cs-font-path}/CiscoSansTTLight.woff) format("woff");
+  font-style:normal;
+  font-weight:300;
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000
+}
+
+@font-face {
+  font-family:CiscoSans;
+  src:url(#{$cs-font-path}/CiscoSansTTExtraLight.woff) format("woff");
+  font-style:normal;
+  font-weight:100;
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000
+}
+
+@font-face {
+  font-family:CiscoSans;
+  src:url(#{$cs-font-path}/CiscoSansTTLightOblique.woff) format("woff");
+  font-style:oblique;
+  font-weight:300;
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000
+}
+
+@font-face{
+  font-family:CiscoSans;
+  src:url(#{$cs-font-path}/CiscoSansTTExtraLightOblique.woff) format("woff");
+  font-style:oblique;
+  font-weight:100;
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000
+}
