@@ -16,15 +16,11 @@ header:
 ## Segment Routing - Simplifying the Network
 
 ## Slides
-{% capture "pdf1-link" %}
-https://www.nanog.org/sites/default/files/wed.general.segment.filsfils.13.pdf
-{% endcapture %}
+{% capture "pdf1-link" %}https://www.nanog.org/sites/default/files/wed.general.segment.filsfils.13.pdf{% endcapture %}
 
 <div id="pdf1"></div>
 <script>
-        PDFObject.embed("{{ pdf1-link }}",
-                        "#pdf1",
-                        {height: "500px"});
+        PDFObject.embed("{{ pdf1-link }}", "#pdf1", {height: "500px"});
 </script>
 
 

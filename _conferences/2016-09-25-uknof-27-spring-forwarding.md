@@ -16,13 +16,9 @@ header:
 **ROB SHAKIR, End-to-End Network Architect, BT TSO**
 {: .notice--info}
 
-{% capture "pdf1-link" %}
-https://indico.uknof.org.uk/event/29/material/slides/0?contribId=8
-{% endcapture %}
+{% capture "pdf1-link" %}https://indico.uknof.org.uk/event/29/material/slides/0?contribId=8{% endcapture %}
 
 <div id="pdf1"></div>
 <script>
-        PDFObject.embed("{{ pdf1-link }}",
-                        "#pdf1",
-                        {height: "500px"});
+        PDFObject.embed("{{ pdf1-link }}", "#pdf1", {height: "500px"});
 </script>

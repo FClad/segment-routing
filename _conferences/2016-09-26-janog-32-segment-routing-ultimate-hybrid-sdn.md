@@ -16,13 +16,9 @@ header:
 **Miya Kohno, Cisco**
 {: .notice--info}  
 
-{% capture "pdf1-link" %}
-https://www.janog.gr.jp/meeting/janog32/doc/janog32-lt-segment-kohno-01.pdf
-{% endcapture %}
+{% capture "pdf1-link" %}https://www.janog.gr.jp/meeting/janog32/doc/janog32-lt-segment-kohno-01.pdf{% endcapture %}
 
 <div id="pdf1"></div>
 <script>
-        PDFObject.embed("{{ pdf1-link }}",
-                        "#pdf1",
-                        {height: "500px"});
+        PDFObject.embed("{{ pdf1-link }}", "#pdf1", {height: "500px"});
 </script>

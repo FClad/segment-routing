@@ -16,13 +16,9 @@ header:
 {: .notice--info}  
 
 
-{% capture "pdf1-link" %}
-https://cellistmiya.typepad.jp/temp/MK_InterOp_Routing_2013.pdf
-{% endcapture %}
+{% capture "pdf1-link" %}https://cellistmiya.typepad.jp/temp/MK_InterOp_Routing_2013.pdf{% endcapture %}
 
 <div id="pdf1"></div>
 <script>
-        PDFObject.embed("{{ pdf1-link }}",
-                        "#pdf1",
-                        {height: "500px"});
+        PDFObject.embed("{{ pdf1-link }}", "#pdf1", {height: "500px"});
 </script>

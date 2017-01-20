@@ -18,13 +18,9 @@ position: hidden
 **Shantanu Dasgupta, Consulting Engineer, Cisco**
 {: .notice--info}
 
-{% capture "pdf1-link" %}
-https://conference.apnic.net/data/37/apnic2014-segment-routing_santanu_v5_1393404956.pdf
-{% endcapture %}
+{% capture "pdf1-link" %}https://conference.apnic.net/data/37/apnic2014-segment-routing_santanu_v5_1393404956.pdf{% endcapture %}
 
 <div id="pdf1"></div>
 <script>
-        PDFObject.embed("{{ pdf1-link }}",
-                        "#pdf1",
-                        {height: "500px"});
+        PDFObject.embed("{{ pdf1-link }}", "#pdf1", {height: "500px"});
 </script>
